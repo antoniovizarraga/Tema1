@@ -10,17 +10,17 @@ public class EjercicioProgramacion5 {
 		
 		
 		System.out.print("Introduzca el radio de la circunferencia: ");
-		radius = sc.nextFloat();
+		radius = sc.nextDouble();
 		
-		sc.close();
 		
 		length = 2 * Math.PI * radius;
-		Math.pow(radius, 2);
-		area = Math.PI * radius;
+
+		area = Math.PI * Math.pow(radius, 2);
 		
 		System.out.println("Radio: " + radius);
 		System.out.println("Área: " + area);
 		System.out.println("Longitud: " + length);
+		sc.close();
 	}
 
 }
