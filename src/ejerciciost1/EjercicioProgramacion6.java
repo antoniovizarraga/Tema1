@@ -50,7 +50,7 @@ public class EjercicioProgramacion6 {
 		
 		
 		// Cerramos el Scanner.
-		sc.close();;
+		sc.close();
 	}
 
 }
